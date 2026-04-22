@@ -1,0 +1,307 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente y fondo general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+    text-align: center;
+}
+
+/* NAV */
+nav {
+    background-color: #ff69b4;
+    padding: 15px;
+}
+
+/* enlaces del nav */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* efecto hover */
+nav a:hover {
+    color: #000;
+}
+
+/* título principal */
+h1 {
+    margin-top: 25px;
+    font-size: 40px;
+    color: #d63384;
+}
+
+/* main (aunque esté fuera del body en tu HTML, igual lo estiliza) */
+main {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* subtítulo */
+h2 {
+    font-size: 28px;
+    color: #ff1493;
+    margin-bottom: 15px;
+}
+
+/* texto descriptivo */
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+/* imagen */
+img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+    text-align: center;
+}
+
+/* NAV */
+nav {
+    background-color: #ff69b4;
+    padding: 15px;
+}
+
+/* enlaces del nav */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* hover */
+nav a:hover {
+    color: black;
+}
+
+/* título principal */
+h1 {
+    margin-top: 25px;
+    font-size: 38px;
+    color: #d63384;
+}
+
+/* lista de técnicas (h3) */
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    color: #444;
+    transition: transform 0.2s;
+}
+
+/* efecto al pasar el mouse */
+h3:hover {
+    transform: scale(1.05);
+    background-color: #ffe4f1;
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fb;
+    color: #333;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff4da6;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #222;
+}
+
+/* Contenido de contacto */
+h3 {
+    background-color: white;
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Links de redes sociales */
+h3 a {
+    color: #ff4da6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}
+
+/* ===== HORARIOS ===== */
+
+/* Contenedor general (opcional si lo usas) */
+.horarios-container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* Tarjetas de horarios */
+.horario {
+    background-color: white;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 60%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.horario:hover {
+    transform: translateY(-5px);
+}
+
+/* Títulos dentro de horarios */
+.horario h3 {
+    margin: 0;
+    color: #ff4da6;
+}
+
+/* Texto de horarios */
+.horario p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Tabla alternativa de horarios */
+table {
+    width: 70%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #222;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ffe6f2;
+}
+
+/* ===== RECURSOS ===== */
+
+/* Contenedor general */
+.recursos-container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* Tarjetas de recursos */
+.recurso {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 65%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.recurso:hover {
+    transform: scale(1.03);
+}
+
+/* Títulos de recursos */
+.recurso h3 {
+    color: #ff4da6;
+    margin-bottom: 10px;
+}
+
+/* Texto de recursos */
+.recurso p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Botones o enlaces de recursos */
+.recurso a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.recurso a:hover {
+    background-color: #ff4da6;
+}
